@@ -9,7 +9,6 @@ public class PlayerMoviment : MonoBehaviour
     private float MoveSpeed=4;
     private float jumpForce = 25f;
     private float rollForce = 10f;
-    private bool jumped = false;
     private int pDirection;
     private Rigidbody2D rigBody;
     private Animator anim;
