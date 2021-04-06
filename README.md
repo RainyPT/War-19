@@ -17,7 +17,7 @@ to resume the game at the last level you played, the game controls (in the optio
 
 <h1>Attention!</h1>
 Our voice recognition algorithm will only work if you are playing on a <b>Windows 10</b> computer with the language set to <b>English</b> and with <b>cortana</b> available.
-<a href="blob/main/Build.rar">DOWNLOAD</a>
+<a href="Build.rar">DOWNLOAD</a>
 <br/>
 <br/>
 <b>Credits:</b>
