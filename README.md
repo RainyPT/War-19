@@ -20,9 +20,9 @@ Our voice recognition algorithm will only work if you are playing on a <b>Window
 <br/>
 <br/>
 <b>Credits:</b>
-António Caldeira (Tile design and Storyboard) 
-Daniel Rodrigues (Animations and Sprites design)
-Duarte Gonçalves (Tile implementation, UI Implementation and Coding)
-Renato Quelhas (UI Design, UI Implementation and Coding)
-Francisco Gonçalves (Gameplay Coding and UI Implementation)
-Joaquim Macaia (Storyboard)
+<p>António Caldeira (Tile design and Storyboard) </p>
+<p>Daniel Rodrigues (Animations and Sprites design)</p>
+<p>Duarte Gonçalves (Tile implementation, UI Implementation and Coding)</p>
+<p>Renato Quelhas (UI Design, UI Implementation and Coding)</p>
+<p>Francisco Gonçalves (Gameplay Coding and UI Implementation)</p>
+<p>Joaquim Macaia (Storyboard)</p>
