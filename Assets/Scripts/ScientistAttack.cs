@@ -18,19 +18,20 @@ public class ScientistAttack : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
+    //O update é feito por cada frame
     void Update()
     {
+        //Tempo entre ataques
         if (TimerForNextAttack > 0)
         {
+            anim.SetBool("isAttacking", false);
             TimerForNextAttack -= Time.deltaTime;
         }
         else if (TimerForNextAttack <= 0)
         {
-            anim.SetBool("isAttacking", false);
             if (localPlayer != null)
             {
-                if (EMScript.distanceFromPlayer < EMScript.lineOfSight)
+                if (EMScript.distanceFromPlayer.x < EMScript.lineOfSight&& EMScript.distanceFromPlayer.y < EMScript.lineOfSight)
                 {
                     Instantiate(potionPrefab, throwPoint.position, throwPoint.rotation);
                     anim.SetBool("isAttacking", true);

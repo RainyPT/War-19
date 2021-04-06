@@ -6,6 +6,10 @@ TagManager:
   tags:
   - LocalPlayer
   - Ground
+  - Scientist
+  - Bat
+  - Ghost
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -40,8 +44,26 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
+  - name: layer0
     uniqueID: 2978139285
+    locked: 0
+  - name: layer1
+    uniqueID: 1061499305
+    locked: 0
+  - name: layer2
+    uniqueID: 3626021491
+    locked: 0
+  - name: layer3
+    uniqueID: 1085708965
+    locked: 0
+  - name: BossLayer
+    uniqueID: 4127771217
+    locked: 0
+  - name: tiles
+    uniqueID: 4107459559
+    locked: 0
+  - name: portal
+    uniqueID: 3409238019
     locked: 0
   - name: Default
     uniqueID: 0
